@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>Devinette</title>
+
+</head>
+
+<body>
+
+    <div class=" mx-auto container col-md-12 d-flex align-items-center flex-column">
+        <div class="espace1"></div>
+        <h1 id="titre">D E V I N E T T E </h1>
+        <h2 id="sous-titre">Devinez le Nombre Mystère ...  </h2>
+        <div class="espace2"></div>
+
+        <p id="regle1" class="text-center font-weight-normal">Ce nombre se situe entre 1 et 100</p>
+        <p id="regle2" class="text-center font-weight-normal">Vous avez 7 tentatives pour le trouver</p>
+
+        <div class="row d-flex justify-content-center">
+            <p id="regle3" class="choix font-weight-normal" for="number">C'est à vous : </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <input type="text" class="numberInput" id="number">
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <input id="buttonSubmit" class="mt-4 btn " type="submit" value="Jouer" >
+        </div>
+        <div class="espace2"></div>
+        <div class="mamanP text-center">
+            <p class="rightOrFalse"></p>
+            <p class="hint"></p>
+        </div>
+
+        <div class="boutonRejouer row d-flex justify-content-center">
+            <div class="resetField btn"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
